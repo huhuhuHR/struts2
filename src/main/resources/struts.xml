@@ -8,4 +8,9 @@
             <result name="index">/success.html</result>
         </action>
     </package>
+    <package name="Login" namespace="/" extends="struts-default">
+        <action name="Login" class="com.hh.controller.LoginAction" method="Login">
+            <result name="toLogin">/html/login.html</result>
+        </action>
+    </package>
 </struts>
