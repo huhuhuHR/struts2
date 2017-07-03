@@ -3,12 +3,12 @@
         "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
         "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
-    <package name="test" namespace="/" extends="struts-default">
+    <package name="test" namespace="/test" extends="struts-default">
         <action name="testOne" class="com.hh.controller.TestAction" method="testOne">
             <result name="index">/success.html</result>
         </action>
     </package>
-    <package name="Login" namespace="/" extends="struts-default">
+    <package name="Login" namespace="/Login" extends="struts-default">
         <action name="Login" class="com.hh.controller.LoginAction" method="Login">
             <result name="toLogin">/html/login.html</result>
         </action>
