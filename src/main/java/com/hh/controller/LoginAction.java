@@ -15,7 +15,7 @@ public class LoginAction extends ActionSupport {
     private String name;
     private String password;
 
-    public String Login() {
+    public String login() {
         Map result = loginService.checkLogin("huorong");
         return "toLogin";
     }
