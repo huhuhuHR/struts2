@@ -7,8 +7,6 @@
         <action name="testOne" class="com.hh.controller.TestAction" method="testOne">
             <result name="index">/success.html</result>
         </action>
-    </package>
-    <package name="login" namespace="/login" extends="struts-default">
         <action name="loginDemo" class="com.hh.controller.LoginAction" method="login">
             <result name="toLogin">/html/login.html</result>
         </action>
