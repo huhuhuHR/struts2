@@ -17,7 +17,7 @@
 
      resultType：指定sql输出结果的映射的java对象类型，select指定resultType表示将单条记录映射成java对象
      -->
-    <select id="login" resultType="java.util.Map" parameterType="java.util.Map">
-      select * from user where name = #{name}
+    <select id="login" resultType="java.util.Map" parameterType="java.lang.String">
+        select * from user where username = #{name}
     </select>
 </mapper>
